@@ -14,7 +14,7 @@
 
 上面两个作为具体消息类的父类.具体消息类要有getMesseageType方法,返回Messege中定义的映射的Key,用于之后发送给服务端
 
-![image-20231228004138009](C:\Users\jason\AppData\Roaming\Typora\typora-user-images\image-20231228004138009.png)
+![image-20231228004138009](img/image-20231228004138009.png)
 
 
 
@@ -54,9 +54,9 @@
 
   用于自动根据长度字段来读取消息,而且可以选择跳过读取的信息
 
-  ![img](https://nyimapicture.oss-cn-beijing.aliyuncs.com/img/20210425200007.png)
+  ![img](img/20210425200007.png)
 
-  ![image-20231228013115390](C:\Users\jason\AppData\Roaming\Typora\typora-user-images\image-20231228013115390.png)
+  ![image-20231228013115390](img/image-20231228013115390.png)
 
 Hello前面的`......`是除正文外的其他信息,这些信息在前面字节码中,但不会被解析,如果把initialBytesToStrio参数设为1,那么会少一个".",而且前面的"ca"那个字节会被跳过读取,不显示在字节码
 
